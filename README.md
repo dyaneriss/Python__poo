@@ -40,3 +40,32 @@ class Nombreclase:
 - Puede definir tantos  atributos como necesites
 - Puede definir tantos  metodos como necesites
 - Puede definir tantos  parametros en el constructor y en los metodos como necesites
+
+## Ejemplo
+- Atributos: nombre, apellidos, y edad
+- Metodos: mostrar la información de la persona
+
+### Codigo
+
+```python
+class persona:
+
+    def __init__(self, nombre,apellido, edad):
+        self.nombre = nombre
+        self.apeliido = apellido
+        self.edad = edad
+
+def MostrarPersona(self):
+    print("Nombre: ", self.nombre)
+    print("Apellidos: ", self.apellidos)
+    print("Edad: ", self.edad)
+
+def main():
+    print("Vamos a aprender POO...")
+    persona_1 = persona("Lorenzo", "Perez", 18)
+    persona_1.mostrarPersona()
+
+if __name__ == main():
+    main()
+```
+![objeto RAM](RAM.jpegjped.png "obejeto RAM")
