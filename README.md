@@ -68,4 +68,4 @@ def main():
 if __name__ == main():
     main()
 ```
-![objeto RAM](RAM.jpegjped.png "obejeto RAM")
+![objeto RAM](RAM.png "obejeto RAM")
